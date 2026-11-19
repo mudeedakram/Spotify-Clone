@@ -1,0 +1,32 @@
+{
+    "workbench.startupEditor": "none",
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "code-runner.runInTerminal": true,
+    "files.autoSaveWhenNoErrors": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+
+    // Live Server Config
+    "liveServer.settings.host": "0.0.0.0",
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass" 
+    ]
+}
